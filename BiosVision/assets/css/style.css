@@ -8055,8 +8055,11 @@ html {
 body {
   padding-top: 20px;
   background-color: #f2f2f2;
-  background-image: url('../img/witewall_3.png');
-  border-top: 5px solid #7faf1b;
+  background-image: url('../img/zen-sand_1.jpg');
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: 100% auto;
+  /*border-top: 5px solid #7faf1b;*/
 }
 
 .post {
@@ -8064,7 +8067,7 @@ body {
   padding-right: 20px;
   padding-bottom: 30px;
   padding-left: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background-color: white;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
@@ -8146,4 +8149,20 @@ body {
 
 .nav-pills li a {
   border-radius: 0;
+}
+
+.post-title > a {
+  color: #333333;
+}
+
+.post-title > a:hover {
+  color: #333333;
+}
+
+#site-head-content > a {
+  color: #333333;
+}
+
+#site-head-content > a:hover {
+  color: #333333;
 }
