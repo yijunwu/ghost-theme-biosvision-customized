@@ -13,19 +13,22 @@
         {{! Everything below outputs content of the the post which has been published }}
 
         <h1 class="post-title">{{{title}}}</h1>
+	<hr/>
 
         <section class="post-content">
             {{content}}
         </section>
 
         <footer class="post-footer">
-            <span class="post-meta"><span class="label label-default"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time></span> {{#if tags}}on <span class="label label-default">{{tags}}</span>{{/if}}</span>
+            <span class="post-meta"><span class="label label-default"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="YYYY-MM-DD"}}</time></span> {{#if tags}}on <span class="label label-default">{{tags}}</span>{{/if}}</span>
             {{#if author}}
                 <hr/>
                 <section class="author">
                     {{#if author.image}}<div id="author-image" class="pull-left"><img src="{{author.image}}" alt="{{author.name}}" hight="100px" width="100px"/></div>{{/if}}
                     <h4>{{author.name}}</h4>
-                    <p>{{author.bio}}</p>
+                    <!--<p>{{author.bio}}</p>-->
+		    <p/>
+		    <a href="/"><h4><b>返回首页</b></h4></a>
                 </section>
             {{/if}}
             <hr/>
