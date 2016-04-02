@@ -13,10 +13,13 @@
         <header class="post-header">
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
         </header>
+	<hr/>
         <section class="post-excerpt">
-            <p>{{excerpt}}&hellip;</p>
+            <p>{{content characters="270"}}&hellip;</p>
+	    <p><a class="btn btn-success" href="{{url}}">阅读全文</a></p>
         </section>
-        <span class="post-meta"><span class="label label-default"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time></span> {{#if tags}}on <span class="label label-default">{{tags}}</span>{{/if}}</span>
+        <br/>
+        <span class="post-meta"><span class="label label-default"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="YYYY-MM-DD"}}</time></span> {{#if tags}}on <span class="label label-default">{{tags}}</span>{{/if}}</span>
     </article>
 
     {{/foreach}}
