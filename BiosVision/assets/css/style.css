@@ -5117,7 +5117,7 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .well-sm {
   padding: 9px;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 .close {
