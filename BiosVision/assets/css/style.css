@@ -8166,3 +8166,56 @@ body {
 #site-head-content > a:hover {
   color: #333333;
 }
+
+.fadeInDown {
+    -webkit-animation-duration: 0.5s;
+    animation-duration:         0.5s;
+    -webkit-animation-fill-mode:    both;
+    animation-fill-mode:            both;
+    -webkit-animation-name: fadeIndDown;
+    animation-name:         fadeIndDown;
+}
+
+.delay_05s {
+    -webkit-animation-delay:  0.25s;
+    -moz-animation-delay:     0.25s;
+    animation-delay:          0.25s;
+}
+
+.delay_075s {
+    -webkit-animation-delay:  0.375s;
+    -moz-animation-delay:     0.375s;
+    animation-delay:          0.375s;
+}
+
+.delay_1s {
+    -webkit-animation-delay:  0.5s;
+    -moz-animation-delay:     0.5s;
+    animation-delay:          0.5s;
+}
+
+@-webkit-keyframes fadeIndDown {
+    from {
+        opacity: 0;
+        -webkit-transform:  translateY(-20px);
+        transform:          translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform:  none;
+        transform:          none;
+    }
+}
+
+@keyframes fadeIndDown {
+    from {
+        opacity: 0;
+        -webkit-transform:  translateY(-20px);
+        transform:          translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform:  none;
+        transform:          none;
+    }
+}

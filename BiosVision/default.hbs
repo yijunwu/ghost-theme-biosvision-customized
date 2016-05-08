@@ -26,7 +26,7 @@
 </head>
 <body class="{{body_class}}">
     <div class="row">
-        <header id="site-head">
+        <header id="site-head fadeInDown delay_05s">
             <div class="vertical">
                 <div id="site-head-content" class="inner">
                    <a href="/"><h1 class="blog-title">{{@blog.title}}</h1></a>
@@ -46,11 +46,11 @@
 </div-->
 <!--hr style="margin-top:0px;height:1px;border=0 none;background-color:#FEFEFE;color:#FEFEFE;height=2px;"/-->
         <div class="row">
-            <div id="content" class="col-sm-9">
+            <div id="content" class="col-sm-9 fadeInDown delay_075s">
                 {{! Everything else gets inserted here }}
                 {{{body}}}
             </div>
-            <div id="sidebar" class="col-sm-3">
+            <div id="sidebar" class="col-sm-3 fadeInDown delay_1s">
                 {{> sidebar}}
             </div>
         </div>
