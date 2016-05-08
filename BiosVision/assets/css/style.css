@@ -3488,9 +3488,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar {
   position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
+  min-height: 40px; /*useful*/
+  height: 40px;
+  margin-bottom: 15px;
+  /*border: 1px solid transparent;*/
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .navbar:before,
@@ -3745,8 +3747,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
