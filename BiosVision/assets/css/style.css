@@ -8219,3 +8219,63 @@ body {
         transform:          none;
     }
 }
+
+.search-box {
+	border-radius: 5px;    
+	border-style: solid; 
+	/*background-color: rgba(150, 150, 150, 0.3); */
+	/*border: 1px;*/
+	border-color: rgba(152, 152, 152, 0.7);
+	border-width: thin;
+	
+}
+
+.site-search {
+	padding-top: 8px;    
+	padding-right: 15px;    
+}
+
+.search-results{
+    /*text-align: center;*/
+}
+
+
+
+.search-results {
+    /*margin-top: 50px;
+    margin-bottom: 20px;*/
+	padding-left: 18px;
+	padding-right: 18px;
+	/* padding-top: 10px;
+	padding-bottom: 10px; */ 
+	/*padding-top: 10px;*/
+	background-color: white;
+	/*visible;z-index: -1; */
+	position:relative
+}
+
+.search-results h2 {
+    font-size: 2rem;
+    /*text-transform: uppercase;*/
+    font-weight: 600;
+}
+
+.search-results h3 {
+    padding-top: 50px;
+    color: #99CCFF;
+    font-size: 2rem;
+    /*text-transform: uppercase;*/
+    font-weight: 500;
+}
+
+.search-results time {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+.search-button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+	/*height: 25px;*/
+	color: #777777;
+}

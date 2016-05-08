@@ -18,6 +18,13 @@
             $(".post-content").fitVids();
 
         });
+		$("#search").ghostHunter({
+              results: "#search-results",
+			  zeroResultsInfo : false,
+			  result_template 	: "<a class='search-result-entry' href='{{link}}'><h2>{{title}}</h2><h4>{{pubDate}}</h4></a>",
+			  info_template   : "<p>共找到{{amount}}篇文章</p>",
+			  onKeyUp         : false
+        });
 
     });
 

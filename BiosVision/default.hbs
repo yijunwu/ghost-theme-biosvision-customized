@@ -44,6 +44,9 @@
   <li><a href="http://wiki.wuyijun.cn"><b>我的Wiki</b></a></li>
 </ul>
 </div-->
+
+	<div id="search-results" class="search-results"></div>  
+
 <!--hr style="margin-top:0px;height:1px;border=0 none;background-color:#FEFEFE;color:#FEFEFE;height=2px;"/-->
         <div class="row">
             <div id="content" class="col-sm-9 fadeInDown delay_075s">
@@ -72,6 +75,7 @@
 
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
+	<script type="text/javascript" src="{{asset "js/jquery.ghostHunter.min.js"}}></script>
     <script>
 	var _hmt = _hmt || [];
 	(function() {
