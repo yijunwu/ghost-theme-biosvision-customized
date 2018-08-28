@@ -3,12 +3,16 @@ export blog content
 
 2. 
 docker stop my-ghost
+
 docker rename my-ghost my-ghost-old
+
 docker pull ghost:latest
+
 docker run -d --name my-ghost -p 8080:2368 -d ghost:latest
 
 3. 
 visit ghost and create account
+
 clear posts
 
 4. 
