@@ -8176,8 +8176,8 @@ body {
 .fadeInDown {
     -webkit-animation-duration: 0.5s;
     animation-duration:         0.5s;
-    -webkit-animation-fill-mode:    both;
-    animation-fill-mode:            both;
+    -webkit-animation-fill-mode:    backwards;
+    animation-fill-mode:            backwards;
     -webkit-animation-name: fadeIndDown;
     animation-name:         fadeIndDown;
 }
