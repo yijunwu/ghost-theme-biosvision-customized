@@ -1,3 +1,5 @@
+更新Ghost版本的办法：
+
 1. 
 export blog content
 
@@ -24,3 +26,7 @@ cp -r /var/lib/docker/vfs/dir/4f28396de6b3c876878d27642fd793af8ed4bdbba9954c2d4c
 6. 
 docker exec -it my-ghost bash
 edit config.development.json and config.production.json in /var/lib/ghost with command: cat < config.production.json
+
+
+更新Theme的办法
+vi /var/lib/docker/vfs/dir/a5fd907fb894a0f271c35ce8075950ac731c6fa57688c92922512e658eb54225/themes/biosvision--2-/default.hbs
